@@ -4,49 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Tiro+Tamil' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Older Claire</title>
+    <title>Older</title>
 </head>
 <body>
     <div class="skip"><a href="#main">Skip to Content</a></div>
     <header>
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "young.html">Younger Claire</a></li>
-                <li><a href = "old.html">Older Claire</a></li>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "young.html">YOUNG</a></li>
+                <li class = "active"><a href = "old.html">OLDER</a></li>
             </ul>
         </nav>
-        <h1>Media That Changed Me More Recently</h1>
+        <h1>THE RECENT YEARS</h1>
+        <h2>Every work that has been significant to me from the beginning of high school to my current years in college.</h2>
 
     </header>
     
     <main class='container' id = 'main'>
-        <div class = "intro" tabindex="0">
-            <img src = "images/older/ageofultron.jpg" width="200" alt = "age of ultron">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
-            <img src = "images/older/bridgerton.jpg" width="200" alt = "bridgerton">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
+        <div class = "flex" tabindex="0">
+            <div class = "card_container bridgerton">
+                <div class = 'cards'>
+                    <div class="cards__inner">
+                        <img src = "images/older/bridgerton.jpg" width="200" alt = "bridgerton">
+                    </div>
+                </div>
+                <div class = 'cards'>
+                    <div class="cards__inner">
+                        <h2>Bridgerton</h2>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
+                    </div>
+                </div>
+            </div>
             <img src = "images/older/everythingeverywhere.jpg" width="200" alt = "everything everywhere all at once">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
             <img src = "images/older/it.jpg" width="200" alt = "it">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
             <img src = "images/older/littlewomen.jpeg" width="200" alt = "littlewomen">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
             <img src = "images/older/ncis.jpg" width="200" alt = "ncis">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
             <img src = "images/older/neverhaveiever.jpg" width="200" alt = "neverhaveiever">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
             <img src = "images/older/pitchperfect.jpg" width="200" alt = "pitchperfect">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
+            <img src = "images/young/summeriturned.jpeg" width="200" alt = "avatar">
             <img src = "images/older/wandavision.jpg" width="200" alt = "wandavision">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, voluptatum expedita quidem, repellat quae, fugit earum aspernatur repellendus illo eum impedit voluptates quibusdam laudantium dolore non deleniti error? Suscipit, quae?</p>
         </div>
     </main>
     <footer>
         <p>Claire Li 2022</p>
     </footer>
+    <script src="animate.js"></script>
 </body>
 </html>
