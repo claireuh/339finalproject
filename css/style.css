@@ -138,6 +138,12 @@ nav li.active a{
     background-color: rgb(251 251 249 / 80%);
 }
 
+.row:focus, .row:hover, .pic:focus, .pic:hover, .summary:focus, .summary:hover {
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8), inset 0px 0px 25px rgb(0 0 0 / 30%);
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -259,7 +265,6 @@ p {
         box-sizing: border-box;
         border: 2px solid white;
         box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8), inset 0px 0px 25px rgb(0 0 0 / 30%);
-        /* box-shadow: 0 0 10px white; */
     }
 
 }
